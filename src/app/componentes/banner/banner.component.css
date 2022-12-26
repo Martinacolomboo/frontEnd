@@ -1,0 +1,44 @@
+.paginaPrincipal{
+    background-image: url(./../../../../src/assets/img/g.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
+.pen{
+    margin-left: 90%;
+}
+/*nombre en menu*/
+#principal {
+    font-family: "Open Sans",sans-serif;
+    text-align: center;
+    color: rgb(5, 5, 5);
+    position: absolute;
+    transform: translate(-50%,-50);
+    margin-left: 5%;
+   font-size: 2vh;
+   
+    /* top:50%;
+    right: 65%;
+    
+    margin-bottom: 10%;*/
+
+}
+
+#principal h2{
+   font-size: 6vh;
+   /*  top:50%;
+    right: 60%;*/
+   
+    
+}
+
+#principal button{
+    margin-left: 80%;
+}
+/*apellido de color*/
+.apellido{
+    color: rgba(31, 14, 209, 0.988);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="paginaPrincipal">
+    <app-header></app-header>
+     <!--boton para cambiar imagen-->
+    <div class="pen">
+        <button type="button" class="btn btn-none" data-bs-toggle="modal" data-bs-target="#loginImagenModal">
+        <i class="fa-solid fa-pen"></i>
+    </button>
+    <!--modal abajo-->
+    <app-modal-imagen></app-modal-imagen>
+    </div>
+    <!--info sobre la imagen-->
+    <div id="principal">
+        <!--boton para cambiar texto-->
+         <button type="button" class="btn btn-none" data-bs-toggle="modal" data-bs-target="#loginEscritoModal">
+            <i class="fa-solid fa-pen"></i>
+      <!--modal abajo-->
+         </button>
+         <app-modal-texto></app-modal-texto>
+    
+        <div class="row align-items-start" >
+            <div class="col">
+                <h2><strong>Martina</strong>
+                <br><strong class="apellido">Colombo</strong></h2>
+                <p>Desarrolladora Full Stack Developer Jr </p>
+            </div>
+        </div>
+    </div>
+    <app-footer></app-footer>
+    
+</body>
+</html>

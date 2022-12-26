@@ -1,0 +1,69 @@
+/*para todos los titulos de la pagina 2*/
+h1{
+    font-size: 60px;
+    margin-top: 2px;
+    margin-bottom: 2%;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    color:rgb(251, 246, 246);
+    font-family: "opean Sans Bold";
+    text-shadow: 
+        -1px -1px 0 rgb(55, 255, 20),
+        1px -1px 0 rgba(31, 14, 209, 0.988),
+        -1px 1px 0 rgba(31, 14, 209, 0.988);
+    
+}
+/*posicion de las columnas*/
+.col{
+    margin:2%;
+    padding: 3%;
+    text-align: left;
+}
+/*posicion de los parrafos*/
+p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10%;
+   font-family: "Open Sans";
+}
+/*posicion de los titulos h2*/
+h2{
+    margin-left: 10%;
+    font-family: "Open Sans";
+}
+
+/*botones de editar o eliminar*/
+#boton1{
+    margin-top: -35px;
+    margin-left: 28%;
+    position: absolute;
+}
+#boton2{
+    margin-left: 60%;
+    
+}
+#boton3{
+    margin-left: 80%;
+    margin-bottom: -10%;
+   
+}
+#boton4{
+    margin-left: 90%;
+    
+}
+
+.educacion{
+    background-color: transparent;
+}
+
+/*imagenes del certificado*/
+.eko{
+    height: 420px;
+ }
+ /*imagen del analitico*/
+#titulo img{
+    width: 350px;
+    height: 500px;
+    border-bottom: 20%;
+ }

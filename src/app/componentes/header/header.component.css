@@ -1,0 +1,25 @@
+/*borde del menu*/
+.dropdown-menu{
+    border: 2px solid rgba(12, 12, 12, 0.692);
+    border-radius: 8px;  
+    left: 50px;
+    padding: 5px;
+    left: 80px;
+    margin-right: 5%;
+    background-color: rgba(255, 255, 255, 0.499);
+}
+/*logo argentina programa*/
+.logoAp{
+    width: 150px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color: black;
+    border-radius: 20px;
+}
+.fondo{
+    background-color: transparent;
+}
+#todo button{
+    margin-left: 2px;
+}

@@ -1,0 +1,56 @@
+/*los contactos los link de contacto*/
+.contactos a{
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    font-style: none;
+    color: black;
+   
+}
+/*el borde*/
+.contactos {
+    border: 3px solid rgba(66, 3, 237, 0.743);
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    transition: 3s;
+    z-index: 1;
+    transition: .9s;
+    
+}
+/*el logo en los contactos*/
+.foto{
+    width: 20vw;
+    height: 20vh;
+    margin-left:20% ;
+    margin-top: 2%;
+    
+}
+
+.c{
+    background-color: transparent;
+}
+
+h1{
+    font-size: 60px;
+    margin-top: 2px;
+    margin-bottom: 2%;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    color:rgb(251, 246, 246);
+    font-family: "opean Sans Bold";
+    text-shadow: 
+        -1px -1px 0 rgb(55, 255, 20),
+        1px -1px 0 rgba(31, 14, 209, 0.988),
+        -1px 1px 0 rgba(31, 14, 209, 0.988);
+    
+}
+/*posicion de las columnas*/
+.col{
+    margin:2%;
+    padding: 3%;
+    text-align: left;
+}

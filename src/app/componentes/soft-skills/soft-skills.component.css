@@ -1,0 +1,62 @@
+/*los porcentajes*/
+.progress{
+    border: 1px solid rgb(7, 7, 7);
+    margin: 2%; 
+    
+}
+/*hard & soft skills*/
+.hard{
+    background-color: rgba(255, 255, 255, 0.524);
+    margin: 5%;
+}
+/*los parrafos*/
+.hard p{
+    margin-left: 10%;
+    font-size: 20px;
+}
+/*los titulos*/
+.hard h3{
+    margin-left:5%;
+    margin-bottom: 30px;
+    font-family: 'Open Sans';
+}
+
+/*para todos los titulos de la pagina 2*/
+h1{
+    font-size: 60px;
+    margin-top: 2px;
+    margin-bottom: 2%;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    color:rgb(251, 246, 246);
+    font-family: "opean Sans Bold";
+    text-shadow: 
+        -1px -1px 0 rgb(55, 255, 20),
+        1px -1px 0 rgba(31, 14, 209, 0.988),
+        -1px 1px 0 rgba(31, 14, 209, 0.988);
+    
+}
+/*posicion de las columnas*/
+.col{
+    margin:2%;
+    padding: 3%;
+    text-align: left;
+}
+/*posicion de los parrafos*/
+p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10%;
+   font-family: "Open Sans";
+}
+/*posicion de los titulos h2*/
+h2{
+    margin-left: 10%;
+    font-family: "Open Sans";
+}
+
+.soft{
+    background-color: transparent;
+}
+
