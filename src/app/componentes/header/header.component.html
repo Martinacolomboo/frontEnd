@@ -1,43 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body class="fondo">
-    <section id="navbar">
-        <nav class="navbar navbar-expand-lg data-bs-toggle">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar" target="_blank"><img class="logoAp" src="assets/img/APLogo-20-20.png" alt="logo-argentina-programa"></a>
-              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <a href="https://github.com/Martinacolomboo" class="btn btn-dark" target="_blank" tabindex="-1" role="button" aria-disabled="true"><i class="fa-brands fa-github"></i></a>
-                <div class="dropdown" id="todo"> 
-                  <button class="btn btn-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Menu
-                  </button>
-                  <ul class="dropdown-menu" >
-                    <li><button class="dropdown-item" type="button"><a href="index.html">Menu</a> </button></li>
-                    <li><button class="dropdown-item" type="button"><a href="pag2.html">Acerca de Mi</a></button></li>
-                    <li><button class="dropdown-item" type="button"><a href="pag2.html">Experiencia</a></button></li>
-                    <li><button class="dropdown-item" type="button"><a href="pag2.html">Educación</a></button></li>
-                    <li><button class="dropdown-item" type="button"><a href="pag2.html">Hard & Skills</a></button></li>
-                    <li><button class="dropdown-item" type="button"><a href="pag2.html">Proyectos</a></button></li>
-                    <li><button class="dropdown-item" type="button"><a href="pag2.html">Contacto</a></button></li>
-                  </ul>
-                
-                  <!--modal-->
-                  <!-- Button trigger modal -->
-                 <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#loginModal">
-                  Login
-                  </button>
-                <!-- Modal Esta abajo-->
-                <app-login-modal></app-login-modal>
-              </div>
-            </div>
-          </div>
-        </nav>
-    </section>
-</body>
-</html>
+<section id="navbar">
+  <nav class="navbar navbar-expand-lg data-bs-toggle">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar" target="_blank"><img class="logoAp" src="assets/img/APLogo-20-20.png" alt="logo-argentina-programa"></a>
+        <div id="todo"class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <a href="https://github.com/Martinacolomboo" class="btn btn-dark" target="_blank" tabindex="-1" role="button" aria-disabled="true"><i class="fa-brands fa-github"></i></a>
+         
+          <app-log-in></app-log-in>
+           
+        
+      </div>
+    </div>
+  </nav>
+</section>
+

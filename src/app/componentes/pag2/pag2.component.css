@@ -1,13 +1,13 @@
 /*pagina 2*/
 .pagina2{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: black;
     background-image: url(./../../../assets/img/fondo2.png);
-    width: 100%;
+    background-repeat: no-repeat;  
+    background-size: cover; 
+    background-attachment: fixed; 
+    color: black; 
+    width: 100%;  
+    height: 110%;
    
-    
     
 }
 /*logo de la "m"*/

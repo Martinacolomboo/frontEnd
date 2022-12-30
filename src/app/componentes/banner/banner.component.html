@@ -1,29 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body class="paginaPrincipal">
+
+<section id="menu" class="paginaPrincipal">
     <app-header></app-header>
-     <!--boton para cambiar imagen-->
-    <div class="pen">
-        <button type="button" class="btn btn-none" data-bs-toggle="modal" data-bs-target="#loginImagenModal">
-        <i class="fa-solid fa-pen"></i>
-    </button>
-    <!--modal abajo-->
-    <app-modal-imagen></app-modal-imagen>
-    </div>
-    <!--info sobre la imagen-->
+    <app-lapiz-imagen></app-lapiz-imagen>
+   
+    
     <div id="principal">
-        <!--boton para cambiar texto-->
-         <button type="button" class="btn btn-none" data-bs-toggle="modal" data-bs-target="#loginEscritoModal">
-            <i class="fa-solid fa-pen"></i>
-      <!--modal abajo-->
-         </button>
-         <app-modal-texto></app-modal-texto>
+       <app-lapiz-texto></app-lapiz-texto>
     
         <div class="row align-items-start" >
             <div class="col">
@@ -34,6 +16,6 @@
         </div>
     </div>
     <app-footer></app-footer>
-    
-</body>
-</html>
+
+</section>
+

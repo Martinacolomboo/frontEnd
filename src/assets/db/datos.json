@@ -1,0 +1,26 @@
+{   /*sobre mi*/
+    "nombre": "Martina",
+    "apellido":"Colombo",
+    "edad":19,
+
+    "estudios":[
+        {
+            "id":1,
+            "titulo": ,
+            "institucion": ,
+            "inicio": ,
+            "fin": ,
+            "descripcion": ,
+            "imagen": "../assets/img/g.jpg",
+        }
+        {
+            "id":2,
+            "titulo": ,
+            "institucion": ,
+            "inicio": ,
+            "fin": ,
+            "descripcion": ,
+        }
+    ]
+    /*en los skills se pone el porcentaje solo con el numero*/
+}

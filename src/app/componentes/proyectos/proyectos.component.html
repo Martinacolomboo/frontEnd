@@ -1,30 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body class="proyectil">
+
+<section class="proyectil">
+  <app-back></app-back>
     <h1>Proyectos</h1>
   <div class="row align-items-start">
     <div class="col">
-      <!--boton para cambiar texto-->
-      <button type="button" class="btn btn-none" data-bs-toggle="modal" data-bs-target="#loginEscritoModal">
-        <i class="fa-solid fa-pen"></i>
-        <!--modal abajo-->
-      </button>
-      <!--boton para eliminar-->
-      <button type="button" class="btn btn-none">
-        <i class="fa-solid fa-circle-xmark"></i>
-      </button>
+      <app-lapiz-texto></app-lapiz-texto>
+      <app-borrar></app-borrar>
+      
       <div class="card">
-        <!--boton para cambiar imagen-->
-        <button type="button" class="btn btn-none" data-bs-toggle="modal" data-bs-target="#loginImagenModal">
-          <i class="fa-solid fa-pen"></i>
-        </button>
-        <!--modal abajo-->
+        <app-lapiz-imagen></app-lapiz-imagen>
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -34,21 +18,10 @@
       </div>
     </div>
     <div class="col">
-      <!--boton para cambiar texto-->
-      <button type="button" class="btn btn-none" data-bs-toggle="modal" data-bs-target="#loginEscritoModal">
-        <i class="fa-solid fa-pen"></i>
-        <!--modal abajo-->
-      </button>
-      <!--boton para eliminar-->
-      <button type="button" class="btn btn-none">
-        <i class="fa-solid fa-circle-xmark"></i>
-      </button>
+      <app-lapiz-texto></app-lapiz-texto>
+      <app-borrar></app-borrar>
       <div class="card">
-        <!--boton para cambiar imagen-->
-        <button type="button" class="btn btn-none" data-bs-toggle="modal" data-bs-target="#loginImagenModal">
-          <i class="fa-solid fa-pen"></i>
-        </button>
-        <!--modal abajo-->
+        <app-lapiz-imagen></app-lapiz-imagen>
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -58,5 +31,4 @@
       </div>
     </div>
   </div>
-</body>
-</html>
+</section>

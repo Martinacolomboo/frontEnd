@@ -1,60 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body class="educacion">
+
+<section class="educacion">
+  <app-back></app-back>
     <h1>Educación</h1>
   <div class="row align-items-start">
     <div class="col"> 
-      <!--boton para cambiar imagen-->
-      <button type="button" class="btn btn-none" id="boton1" data-bs-toggle="modal" data-bs-target="#loginImagenModal">
-        <i class="fa-solid fa-pen"></i>
-      </button>
-      <!--modal abajo-->
+      <app-lapiz-imagen></app-lapiz-imagen>
       <embed src="./../../../assets/img/argentina_programa_febrero_abril_2022.pdf" type="application/pdf" width="100%" height="420px" />
      </div>
     <div class="col">
-      <!--boton para cambiar texto-->
-      <button type="button" class="btn btn-none" id="boton3"data-bs-toggle="modal" data-bs-target="#loginEscritoModal">
-        <i class="fa-solid fa-pen"></i>
-        <!--modal abajo-->
-      </button>
-      <!--boton para eliminar-->
-      <button type="button" class="btn btn-none" id="boton4">
-        <i class="fa-solid fa-circle-xmark"></i>
-      </button>
+      <app-lapiz-texto></app-lapiz-texto>
+      <app-borrar></app-borrar>
       <p>Certificacion de la primera parte de Argentina Programa.
       </p>
     </div>
   </div>
   <div class="row align-items-start" id="titulo">
     <div class="col">
-      <!--boton para cambiar imagen-->
-      <button type="button" class="btn btn-none" id="boton1" data-bs-toggle="modal" data-bs-target="#loginImagenModal">
-        <i class="fa-solid fa-pen"></i>
-      </button>
-      <!--modal abajo-->
+      <app-lapiz-imagen></app-lapiz-imagen>
       <embed src="./../../../assets/img/analitico.pdf" type="application/pdf" width="400px" height="500px" />
      
       
     </div>
     <div class="col">
-      <!--boton para cambiar texto-->
-      <button type="button" class="btn btn-none" id="boton3"data-bs-toggle="modal" data-bs-target="#loginEscritoModal">
-        <i class="fa-solid fa-pen"></i>
-        <!--modal abajo-->
-      </button>
-      <!--boton para eliminar-->
-      <button type="button" class="btn btn-none" id="boton4">
-        <i class="fa-solid fa-circle-xmark"></i>
-      </button>
+      <app-lapiz-texto></app-lapiz-texto>
+      <app-borrar></app-borrar>
       <p>Titulo Secundario, me gradue en 2020 obtuve el titulo de Bachiller En Economia y Administracion en el Colegio Carlos Pellegrini en la ciudad de Juan Maria Gutierrez, Berazategui de la provincia de Buenos Aires, Republica Argentina.
       </p> 
     </div>
   </div>
-</body>
-</html>
+</section>
+
