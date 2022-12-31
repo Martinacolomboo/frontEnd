@@ -1,11 +1,13 @@
-{   /*sobre mi*/
+{  
+    "foto":"../assets/img/g.jpg",
+    "nombre":"Martina Colombo",
+    "titulo": "Desarroladora Developer Full Stack Jr.",
     "sobremi":[
         { 
-    "nombre": "Martina",
-    "apellido":"Colombo",
-    "edad":19, 
-    "descripcion": "Soy de Buenos Aires, Argentina y me encuentro cursando la segunda etapa de Argentina Programa. Soy estudiante de la Universidad Nacional De La Plata en la sede de Informatica, estoy en mi segundo año de la carrera de Licenciatura en Sistemas.",
-    "fotomia":"../assets/img/2.jpg"
+            "nombre": "Martina Colombo",
+            "edad":19, 
+            "descripcion": "Soy de Buenos Aires, Argentina y me encuentro cursando la segunda etapa de Argentina Programa. Soy estudiante de la Universidad Nacional De La Plata en la sede de Informatica, estoy en mi segundo año de la carrera de Licenciatura en Sistemas.",
+            "fotomia":"../assets/img/2.jpg"
         }
     ],
     "experiencia":[
@@ -13,7 +15,7 @@
             "id":1,
             "imagen1":"../assets/img/IMG_3984.jpg",
             "imagen2":"../assets/img/IMG_3985.jpg",
-            "texto":"En 2020 empece a crear estos apoya celulares docks, cada uno de estos tenian un detalle personalizado. Me encargue de lo que seria el armado de cada uno y tambien de la venta y distribución. ",
+            "texto":"En 2020 empece a crear estos apoya celulares docks, cada uno de estos tenian un detalle personalizado. Me encargue de lo que seria el armado de cada uno y tambien de la venta y distribución. "
         }
     ],
     "estudios":[
@@ -32,10 +34,11 @@
             "institucion": "Carlos Pellegrini",
             "inicio": "14-03-2015",
             "fin": "11-12-2020",
-            "descripcion":"Titulo Secundario, me gradue en 2020 obtuve el titulo de Bachiller En Economia y Administracion en el Colegio Carlos Pellegrini en la ciudad de Juan Maria Gutierrez, Berazategui de la provincia de Buenos Aires, Republica Argentina." 
+            "descripcion":"Titulo Secundario, me gradue en 2020 obtuve el titulo de Bachiller En Economia y Administracion en el Colegio Carlos Pellegrini en la ciudad de Juan Maria Gutierrez, Berazategui de la provincia de Buenos Aires, Republica Argentina." ,
+            "imagen":"../assets/img/analitico.pdf"
         }
     ],
-    //en los skills se pone el porcentaje solo con el numero*/
+    
 
     "habilidades":[
         {
@@ -45,7 +48,7 @@
             "resolutiva": 60,
             "detallista":70,
             "puntualidad":80,
-            "abierta a la novedad":85,
+            "abierta a la novedad":85
         }
     ],
     "Lenguajes":[
@@ -60,22 +63,31 @@
     ],
 
     "proyectos":[
+        
         {
             "id":1,
-            "imagen": ,
-            "descripcion": 
-        },
-        {
-            "id":2,
-            "imagen": ,
-            "descripcion": 
+            "nombre":"Porfolio",
+            "imagen":"../assets/img/tatu.JPG" ,
+            
+            "descripcion": "Porfolio"
         }
     ],
     "contactos": [
         {
-            "imagen": "../assets/img/tatu.JPG",
-            "correo": "mailto:martinanataliacolombo@gmail.com",
-            "github": "https://github.com/Martinacolomboo"
+            "id":1,
+            "imagen": "../assets/img/tatu.JPG"
         }
+    ],
+    "redes":[
+        {
+            "id":1,
+            "icono":"fa-envelopes-bulk" ,
+            "link":"mailto:martinanataliacolombo@gmail.com"
+        },
+        {
+            "id":2,
+            "icono":"fa-github",
+            "link":"https://github.com/Martinacolomboo"
+        }   
     ]
 }

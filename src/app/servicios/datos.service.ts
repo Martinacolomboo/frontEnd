@@ -1,9 +1,7 @@
 
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-//suscribirse a los datos y q reciba respuestas asincrona
-import { Observable } from 'rxjs';
-//hacer peticiones y CRUD
+import { Observable}  from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
