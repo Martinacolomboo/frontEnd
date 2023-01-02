@@ -2,21 +2,19 @@
 <section class="ex">
   <app-back></app-back>
     <h1>Experiencia</h1>
-    <div id="experiencia" class="row align-items-start">
+    <div id="experiencia" class="row align-items-start" *ngFor="let ex of experiencias">
       <div class="col"> 
         <app-lapiz-imagen></app-lapiz-imagen>
         
-        <a href="https://www.instagram.com/miradasinfinitas20/" target="_blank"><img class="proyecto" src="./../../../assets/img/IMG_3984.jpg" alt="proyecto"></a>
-        <button type="button" class="btn btn-light" id="botoninst"><a href="https://www.instagram.com/miradasinfinitas20/" target="_blank"><i class="fa-brands fa-instagram"></i></a></button>
-        <a href="https://www.instagram.com/miradasinfinitas20/" target="_blank"><img class="proyecto" src="./../../../assets/img/IMG_3985.jpg" alt="proyecto"></a>
-        <button type="button" class="btn btn-light" id="botoninst"><a href="https://www.instagram.com/miradasinfinitas20/" target="_blank"><i class="fa-brands fa-instagram"></i></a></button>   
+        <a [href]="ex.link" target="_blank"><img class="proyecto" [src]="ex.imagen1" alt="proyecto"></a>
+        <button type="button" class="btn btn-light" id="botoninst"><a [href]="ex.link" target="_blank"><i class={{ex.logoIns}}></i></a></button>
+        <a [href]="ex.link" target="_blank"><img class="proyecto" [src]="ex.imagen2" alt="proyecto"></a>
+        <button type="button" class="btn btn-light" id="botoninst"><a [href]="ex.link" target="_blank"><i class={{ex.logoIns}}></i></a></button>   
       </div>
       <div class="col"> 
         <app-lapiz-texto></app-lapiz-texto>
         <app-borrar></app-borrar>
-        <p>En 2020 empece a crear estos apoya celulares "docks", cada uno de estos tenian un detalle personalizado. Me encargue de lo que seria el armado de cada uno y tambien de la
-         venta y distribución.  
-        </p>
+        <p>{{ex.texto}}</p>
       </div>
     </div>
   </section>

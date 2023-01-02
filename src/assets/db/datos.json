@@ -1,20 +1,24 @@
 {  
-    "foto":"../assets/img/g.jpg",
-    "nombre":"Martina Colombo",
+    "fotoFondo":"../assets/img/g.jpg",
+    "nombre":"Martina",
+    "apellido":"Colombo",
     "titulo": "Desarroladora Developer Full Stack Jr.",
+    "logoArg":"../assets/img/APLogo-20-20.png",
+    "tatu":"../assets/img/tatu.JPG",
     "sobremi":[
         { 
             "nombre": "Martina Colombo",
-            "edad":19, 
-            "descripcion": "Soy de Buenos Aires, Argentina y me encuentro cursando la segunda etapa de Argentina Programa. Soy estudiante de la Universidad Nacional De La Plata en la sede de Informatica, estoy en mi segundo año de la carrera de Licenciatura en Sistemas.",
+            "descripcion": "Tengo 19 años, soy de Buenos Aires, Argentina y me encuentro cursando la segunda etapa de Argentina Programa. Soy estudiante de la Universidad Nacional De La Plata en la sede de Informatica, estoy en mi segundo año de la carrera de Licenciatura en Sistemas.",
             "fotomia":"../assets/img/2.jpg"
         }
     ],
-    "experiencia":[
+    "experiencias":[
         {
             "id":1,
             "imagen1":"../assets/img/IMG_3984.jpg",
             "imagen2":"../assets/img/IMG_3985.jpg",
+            "link":"https://www.instagram.com/miradasinfinitas20/",
+            "logoIns":"fa-brands fa-instagram",
             "texto":"En 2020 empece a crear estos apoya celulares docks, cada uno de estos tenian un detalle personalizado. Me encargue de lo que seria el armado de cada uno y tambien de la venta y distribución. "
         }
     ],
@@ -42,24 +46,74 @@
 
     "habilidades":[
         {
-            "ingles":75,
-            "creatividad":85,
-            "trabajo en equipo":85,
-            "resolutiva": 60,
-            "detallista":70,
-            "puntualidad":80,
-            "abierta a la novedad":85
-        }
-    ],
-    "Lenguajes":[
+            "id":1,
+            "nombre":"Ingles",
+            "porcentaje":75
+        },
         {
-            "HTML":70,
-            "CSS":65,
-            "Javascript":40,
-            "Java":20,
-            "Angular CLI":40,
-            "Pascal":60
+            "id":2,
+            "nombre":"Creatividad",
+            "porcentaje":85
+        },
+        {
+            "id":3,
+            "nombre":"Trabajo En Equipo",
+            "porcentaje":85
+        },
+        {
+            "id":4,
+            "nombre":"Resolutiva",
+            "porcentaje":60
+        },
+        {
+            "id":5,
+            "nombre":"Detallista",
+            "porcentaje":70
+        },
+        {
+            "id":6,
+            "nombre":"Concentracion y Puntualidad en la entrega de Proyectos",
+            "porcentaje":80
+        },
+        {
+            "id":7,
+            "nombre":"Actitud abierta a la novedad",
+            "porcentaje":85
         }
+       
+    ],
+    "lenguajes":[
+        {
+            "id":1,
+            "nombre":"HTML5 Skills",
+            "porcentaje":70
+        },
+        {
+            "id":2,
+            "nombre":"CSS Skills",
+            "porcentaje":65
+        },
+        {
+            "id":3,
+            "nombre":"JavaScript",
+            "porcentaje":40
+        },
+        {
+            "id":4,
+            "nombre":"Java",
+            "porcentaje":20
+        },
+        {
+            "id":1,
+            "nombre":"Angular Cli",
+            "porcentaje":50
+        },
+        {
+            "id":1,
+            "nombre":"Pascal",
+            "porcentaje":60
+        }
+       
     ],
 
     "proyectos":[
@@ -67,9 +121,9 @@
         {
             "id":1,
             "nombre":"Porfolio",
-            "imagen":"../assets/img/tatu.JPG" ,
-            
-            "descripcion": "Porfolio"
+            "imagen":"../assets/img/fotoPorfolio.png" ,
+            "link":"http://localhost:4200/menu",
+            "descripcion": "Este es mi Porfolio"
         }
     ],
     "contactos": [
@@ -81,12 +135,14 @@
     "redes":[
         {
             "id":1,
-            "icono":"fa-envelopes-bulk" ,
+            "nombre":"Correo Electronico",
+            "icono":"fa-solid fa-envelopes-bulk" ,
             "link":"mailto:martinanataliacolombo@gmail.com"
         },
         {
             "id":2,
-            "icono":"fa-github",
+            "nombre":"GitHub",
+            "icono":"fa-brands fa-github",
             "link":"https://github.com/Martinacolomboo"
         }   
     ]

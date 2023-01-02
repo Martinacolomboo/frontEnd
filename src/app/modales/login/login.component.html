@@ -33,6 +33,7 @@
       </div>
     </div>
   </div>-->
+  <!-- 
   <div class="modal fade" id="loginModal" tabindex="-1"  aria-labelledby="loginModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -42,12 +43,12 @@
         </div>
         <form>
           <div class="modal-body">
-            <form [formGroup]="form"  (ngSubmit)="onEnviar($event)">    
+            <form [formGroup]="form"  (ngSubmit)="onLogin()">    
             <div>
               <label for="email">Email: </label>                          
               <input type="email" formControlName="email">
             </div>
-            <!-- Gracias al getter que configuramos en el controlador -->
+             Gracias al getter que configuramos en el controlador 
             <div *ngIf="Mail?.errors  && Mail?.touched">    
               <p *ngIf="Mail?.hasError('required')" class="error">
                 El email es requerido.
@@ -62,7 +63,7 @@
           <label for="exampleInputPassword1" class="form-label">Password: </label>
           <input type="password" formControlName="password" [class.border-danger]="MailValid">
          </div>
-      <!-- Gracias al getter que configuramos en el controlador -->
+      Gracias al getter que configuramos en el controlador 
       <div *ngIf="Password?.errors  && Password?.touched">
         <p *ngIf="Password?.hasError('required')" class="error">
         El password es requerido.
@@ -74,6 +75,9 @@
       <br/>
        <div>
         <button   type="submit">Iniciar Sesión</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="submit" class="btn btn-primary"><a class="link" href="pag2.html">Guardar</a></button>
+          
         </div>
       </form>
 
@@ -81,7 +85,7 @@
     </form>
     </div>
     </div>
-  </div>
+  </div>-->
     
 
 

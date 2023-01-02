@@ -12,7 +12,7 @@ export class SobreMiComponent implements OnInit {
     constructor(private datos:DatosService){}
 
     ngOnInit():void{
-      this.datos.getDatos().suscribirse(data =>{
+      this.datos.getDatos().subscribe(data =>{
         this.sobremi = data.sobremi;
       })
     }

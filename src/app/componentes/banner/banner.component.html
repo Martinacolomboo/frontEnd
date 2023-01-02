@@ -1,21 +1,20 @@
 
-<section id="menu" class="paginaPrincipal">
+<section id="menu" class="paginaPrincipal" style="background-image: url({{banner.fotoFondo}})" >
     <app-header></app-header>
     <app-lapiz-imagen></app-lapiz-imagen>
    
     
-    <div id="principal">
+    <div id="principal" >
        <app-lapiz-texto></app-lapiz-texto>
-    
+        
         <div class="row align-items-start" >
             <div class="col">
-                <h2><strong>Martina</strong>
-                <br><strong class="apellido">Colombo</strong></h2>
-                <p>Desarrolladora Full Stack Developer Jr </p>
+                <h2><strong>{{banner.nombre}}</strong>
+                <br><strong class="apellido">{{banner.apellido}}</strong></h2>
+                <p>{{banner.titulo}}</p>
             </div>
         </div>
     </div>
     <app-footer></app-footer>
 
 </section>
-

@@ -4,11 +4,12 @@
         <h1>Contacto</h1>
         <div class="row align-items-start">
           <div class="col">
-            <img class="foto" src="./../../../assets/img/tatu.JPG" alt="logo">
+            <img class="foto" [src]="imagen.tatu" alt="logo">
           </div>
-          <div class="col">
-            <a href="mailto:martinanataliacolombo@gmail.com" class="btn btn-light"target="_blank" tabindex="-1" role="button" aria-disabled="true"><i class="fa-solid fa-envelopes-bulk"></i> Correo Electronico</a>
-            <a href="https://github.com/Martinacolomboo" class="btn btn-light"target="_blank" tabindex="-1" role="button" aria-disabled="true"><i class="fa-brands fa-github"></i> GitHub</a>
+          <div class="col" *ngFor="let redes of redes">
+            <div class="col">
+              <a [href]="redes.link" class="btn btn-none" target="_blank" tabindex="-1" role="button" aria-disabled="true"><i class={{redes.icono}}></i>{{redes.nombre}}</a>
+           </div>
           </div>
         </div>
       </div>
