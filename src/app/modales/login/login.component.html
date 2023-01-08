@@ -1,54 +1,18 @@
-<!--Modal login
-<div class="modal fade" id="loginModal" tabindex="-1"  aria-labelledby="loginModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Iniciar Secion</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <form>
-          <div class="modal-body">
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-              <div id="passwordHelpBlock" class="form-text">
-                Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
-              </div>
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            <button type="button" class="btn btn-primary"><a class="link" href="pag2.html">Guardar</a></button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>-->
-  <!-- 
+
   <div class="modal fade" id="loginModal" tabindex="-1"  aria-labelledby="loginModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
+    <div class="modal-dialog" >
+      <div class="modal-content" id="todo">
         <div class="modal-header">
           <h5 class="modal-title">Iniciar Secion</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <form>
+        
           <div class="modal-body">
-            <form [formGroup]="form"  (ngSubmit)="onLogin()">    
+            <form [formGroup]="form"  (ngSubmit)="onEnviar($event)"> 
             <div>
               <label for="email">Email: </label>                          
               <input type="email" formControlName="email">
             </div>
-             Gracias al getter que configuramos en el controlador 
             <div *ngIf="Mail?.errors  && Mail?.touched">    
               <p *ngIf="Mail?.hasError('required')" class="error">
                 El email es requerido.
@@ -63,29 +27,33 @@
           <label for="exampleInputPassword1" class="form-label">Password: </label>
           <input type="password" formControlName="password" [class.border-danger]="MailValid">
          </div>
-      Gracias al getter que configuramos en el controlador 
+    <!-- Gracias al getter que configuramos en el controlador -->
       <div *ngIf="Password?.errors  && Password?.touched">
         <p *ngIf="Password?.hasError('required')" class="error">
         El password es requerido.
        </p>
-      <p *ngIf="Password?.errors?.minlength" class="error">
-        El password debe ser de 8 o más caracteres.
+      <!-- <p *ngIf="Password?.errors?.minlength" class="error">
+        El password debe ser de 8 o más caracteres,contener letras o numeros y no debe contener espacios, caracteres especiales o emojis.
        </p>
+       <p *ngIf="Password?.errors?.maxlength" class="error">
+          El password debe tener como maximo 20 caracteres.
+       </p>-->
       </div>
       <br/>
-       <div>
-        <button   type="submit">Iniciar Sesión</button>
+       <div class="botones">
+        
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        <button type="submit" class="btn btn-primary"><a class="link" href="pag2.html">Guardar</a></button>
-          
+        
+        <button type="submit" class="btn btn-primary" id="boton4"><a class="link" href="pag2.html">Iniciar Sesion</a></button>
+        
         </div>
       </form>
 
     </div>
-    </form>
+    
     </div>
     </div>
-  </div>-->
+  </div>
     
 
 

@@ -26,7 +26,7 @@ import { LapizTextoComponent } from './componentes/lapiz-texto/lapiz-texto.compo
 import { LapizImagenComponent } from './componentes/lapiz-imagen/lapiz-imagen.component';
 import { BorrarComponent } from './componentes/borrar/borrar.component';
 import { BackComponent } from './componentes/back/back.component';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -50,12 +50,14 @@ import { BackComponent } from './componentes/back/back.component';
     LapizTextoComponent,
     LapizImagenComponent,
     BorrarComponent,
-    BackComponent,
+    BackComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
