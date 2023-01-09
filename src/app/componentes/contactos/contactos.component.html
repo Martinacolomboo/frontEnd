@@ -3,11 +3,11 @@
     <div class="contactos">
         <h1>Contacto</h1>
         <div class="row align-items-start">
-          <div class="col">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
             <img class="foto" [src]="imagen.tatu" alt="logo">
           </div>
-          <div class="col" *ngFor="let redes of redes">
-            <div class="col">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2" *ngFor="let redes of redes">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
               <a [href]="redes.link" class="btn btn-none" target="_blank" tabindex="-1" role="button" aria-disabled="true"><i class={{redes.icono}}></i>{{redes.nombre}}</a>
            </div>
           </div>

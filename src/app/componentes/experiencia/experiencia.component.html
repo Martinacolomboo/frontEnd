@@ -3,15 +3,15 @@
   <app-back></app-back>
     <h1>Experiencia</h1>
     <div id="experiencia" class="row align-items-start" *ngFor="let ex of experiencias">
-      <div class="col-6"> 
-        <app-lapiz-imagen></app-lapiz-imagen>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2"> 
+        <span id="boton1"><app-lapiz-imagen></app-lapiz-imagen></span>
         
         <a [href]="ex.link" target="_blank"><img class="proyecto" [src]="ex.imagen1" alt="proyecto"></a>
         <button type="button" class="btn btn-light" id="botoninst"><a [href]="ex.link" target="_blank"><i class={{ex.logoIns}}></i></a></button>
         <a [href]="ex.link" target="_blank"><img class="proyecto" [src]="ex.imagen2" alt="proyecto"></a>
         <button type="button" class="btn btn-light" id="botoninst"><a [href]="ex.link" target="_blank"><i class={{ex.logoIns}}></i></a></button>   
       </div>
-      <div class="col"> 
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2" id="texto"> 
         <app-lapiz-texto></app-lapiz-texto>
         <app-borrar></app-borrar>
         <p>{{ex.texto}}</p>

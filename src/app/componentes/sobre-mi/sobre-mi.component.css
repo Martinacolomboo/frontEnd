@@ -1,7 +1,7 @@
 /*Imagen de Marti*/
 .imag{
     text-align: center; 
-    margin-left: 10%;
+    margin-left: 50%;
     
     width: 300px;/* anchura*/
     height: 420px;
@@ -26,17 +26,19 @@ h1{
     
 }
 /*posicion de las columnas*/
-.col{
-    margin:2%;
-    padding: 3%;
+#texto{
+    margin-left: 50%;
     text-align: left;
 }
 /*posicion de los parrafos*/
-p{
-    font-size: 20px;
+#texto p{
+    font-size: 2.5vw;
+    font-size: 2vh;
     text-align: left;
     margin-left: 10%;
+    margin-bottom: 5%;
    font-family: "Open Sans";
+  
 }
 /*posicion de los titulos h2*/
 h2{
@@ -55,14 +57,11 @@ h2{
     
 }
 #boton3{
-    margin-left: 80%;
-    margin-bottom: -10%;
+    position: left;
+    margin-bottom: -20%;
    
 }
-#boton4{
-    margin-left: 90%;
-    
-}
+
 .sobre-mi{
     background-image: url(./../../../assets/img/fondo2.png);
     background-repeat: no-repeat;  

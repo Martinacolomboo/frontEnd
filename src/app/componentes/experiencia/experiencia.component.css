@@ -15,9 +15,8 @@ h1{
     
 }
 /*posicion de las columnas*/
-.col{
-    margin:2%;
-    padding: 3%;
+#texto{
+    margin-left: 50%;
     text-align: left;
 }
 /*posicion de los parrafos*/
@@ -59,7 +58,7 @@ h2{
     width: 250px;
     border-radius: 7%;
     margin-top: 10px;
-    margin-left: 60px;
+    margin-left: 50%;
     margin-right: 10px;
     margin-bottom: 10px;
     text-align: center;
@@ -87,5 +86,7 @@ h2{
     color: black; 
     width: 100%;  
     height: 100vh;
+    margin-top: 10%;
+    margin-bottom: 10%;
    
 }

@@ -11,7 +11,7 @@
     border-color: red;
   }
   #todo{
-    background-color: rgba(0, 0, 0, 0.64);
+    background-color: rgba(0, 0, 0, 0.616);
     color: white;
   }
   .botones{
@@ -19,4 +19,7 @@
   }
   #boton4{
     margin-left: 5%;
+  }
+  #close{
+    background-color: rgba(255, 255, 255, 0.886);
   }
