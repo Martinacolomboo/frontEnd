@@ -2,14 +2,17 @@
   <app-back></app-back>
     <div class="contactos">
         <h1>Contacto</h1>
-        <div class="row align-items-start">
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="row ">
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
             <img class="foto" [src]="imagen.tatu" alt="logo">
           </div>
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2" *ngFor="let redes of redes">
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-              <a [href]="redes.link" class="btn btn-none" target="_blank" tabindex="-1" role="button" aria-disabled="true"><i class={{redes.icono}}></i>{{redes.nombre}}</a>
-           </div>
+          
+          <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8"  *ngFor="let redes of redes" id="cont">
+           
+              <a [href]="redes.link" class="btn btn-none" target="_blank" tabindex="-1" role="button" aria-disabled="true">
+                <i class={{redes.icono}}></i>{{redes.nombre}}</a>
+              
+            
           </div>
         </div>
       </div>

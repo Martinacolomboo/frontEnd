@@ -3,7 +3,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar" target="_blank"><img class="logoAp" src="assets/img/APLogo-20-20.png" alt="logo-argentina-programa"></a>
         <img class="logo-mio" [src]="foto.tatu" alt="logo">
-        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end" id="todo">
           <li *ngFor="let redes of red">
             <a [href]="redes.link" class="btn btn-dark" target="_blank" tabindex="-1" role="button" aria-disabled="true"><i class={{redes.icono}}></i></a>
            </li>
@@ -19,9 +19,9 @@
               <li><a routerLink="/skills"><button class="dropdown-item" type="button">Hard & skills</button></a> </li>
               <li><a routerLink="/proyectos"><button class="dropdown-item" type="button">Proyectos</button></a> </li>
               <li><a routerLink="/contactos"><button class="dropdown-item" type="button">Contactos</button></a> </li>
-            </ul>
+            </ul></div>
             <app-log-in></app-log-in>
-          </div>
+          
         </div>
       </div>
     </nav>

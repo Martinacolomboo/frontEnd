@@ -38,3 +38,24 @@
 li{
     list-style: none;
 }
+#navbar{
+   
+        background-image: url(./../../../assets/img/fondo2.png);
+        background-repeat: no-repeat;  
+        background-size: cover; 
+        background-attachment: fixed; 
+        color: black; 
+        width: 100%;  
+       padding: 20px;
+    
+}
+@media(max-width:575px){
+    #todo {
+        flex-direction: column;
+    }
+    #todo a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    }
