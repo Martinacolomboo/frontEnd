@@ -4,7 +4,7 @@ h1{
     margin-top: 2px;
     margin-bottom: 12%;
     text-align: center;
-    margin-left: 0;
+    margin-left: 0px;
     margin-right: 0;
     color:rgb(251, 246, 246);
     font-family: "opean Sans Bold";
@@ -16,18 +16,22 @@ h1{
 }
 /*posicion de las columnas*/
 #texto{
-    margin-left: 5%;
+    
    margin-top: 0;
-    text-align: center;
-    width: 40%;
+    text-align: right;
+    width: 350px;
+   margin-left: 10%;
+   
 }
 /*posicion de los parrafos*/
 p{
     font-size: 20px;
-    
+    width: 300px;
    font-family: "Open Sans";
-   margin-left: 50%;
+   position: static;
    text-align: center;
+   
+  
 }
 /*posicion de los titulos h2*/
 h2{
@@ -63,18 +67,18 @@ h2{
     background-attachment: fixed;
     color: black; 
     width: 100%;  
-   
+  
     padding: 30px;
 }
 
-/*imagenes del certificado*/
-.eko{
-    height: 420px;
- }
+
  /*imagen del analitico*/
-#titulo img{
+ img{
     width: 350px;
     height: 500px;
     margin-left: 10%;
-    margin-bottom: 50%;
+    margin-bottom: 10%;
+    position: static;
+    margin-right: 10%;
+    
  }

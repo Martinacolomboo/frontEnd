@@ -5,11 +5,11 @@
   <div class="color">
   <h1 >Acerca de Mi</h1>
   <div class="row" *ngFor="let datos of sobremi">
-    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
       <span id="boton1"><app-lapiz-imagen></app-lapiz-imagen></span>
       <img class="imag" [src]="datos.fotomia" alt="martinacolombo">
     </div>
-    <div class="col-xs-20 col-sm-8 col-md-8 col-lg-8" id="texto">
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" id="texto">
      <app-lapiz-texto></app-lapiz-texto>
       <h2>{{datos.nombre}}</h2>
     

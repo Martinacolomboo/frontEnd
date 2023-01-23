@@ -18,8 +18,7 @@ h1{
 #texto{
     margin-left: 5%;
     text-align: center;
-  
-    
+    width: 400px;
 }
 /*posicion de los parrafos*/
 p{
@@ -39,7 +38,7 @@ h2{
 /*botones de editar o eliminar*/
 #boton1{
     margin-top: -20px;
-    margin-left: 28%;
+    margin-left: 28px;
     position: absolute;
     margin-bottom: -5%;
 }
@@ -47,7 +46,7 @@ h2{
 #boton2{
     
     margin-top: -25px;
-    margin-left: 28%;
+    margin-left: 18px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.758);
 }

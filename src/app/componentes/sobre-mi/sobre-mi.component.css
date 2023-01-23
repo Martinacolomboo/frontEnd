@@ -1,7 +1,7 @@
 /*Imagen de Marti*/
 .imag{
     text-align:left; 
-    margin-left: 20%;
+    margin-left: 10%;
     margin-right: 25px;
     width: 300px;/* anchura*/
     height: 420px;
@@ -30,26 +30,18 @@ h1{
 #texto{
     margin-left: 10%;
     text-align: center;
-    width: 60%;
-
+    width: 400px;
+    margin-bottom: 10%;
 }
 
-#texto p{
-    font-size: 2.5vw;
-    font-size: 2vh;
-    text-align: left;
-    margin-left: 10px;
-    margin-bottom: 5%;
-   font-family: "Open Sans";
-}
+
 /*posicion de los parrafos*/
 #texto p{
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     margin-left: 10%;
     margin-bottom: 5%;
     font-family: "Open Sans";
-    background-color: rgba(255, 255, 255, 0.389);
 }
 /*posicion de los titulos h2*/
 h2{
